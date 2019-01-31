@@ -1,0 +1,11 @@
+img {
+    border-radius: 50%;
+    transition: all 0.5s ease_in-out;
+    opacity: 0.5
+}
+
+img:hover
+{
+     opacity: 1;
+     transform: rotate(360deg);
+}
